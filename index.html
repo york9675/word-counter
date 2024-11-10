@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="york0524" data-description="Support me on Buy me a coffee!" data-message="Would you consider sponsoring me a few drinks? (～￣▽￣)～" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+        
+        <h1>Word Counter</h1>
+        <textarea id="text-input" placeholder="Please enter text..." rows="10"></textarea>
+        <div class="button-group">
+            <button id="clear-button">Clear All</button>
+            <button id="trim-spaces-button">Trim Trailing Spaces</button>
+            <button id="format-paragraph-button">Format Paragraphs</button>
+        </div>
+        <div class="statistics">
+            <h2>Statistics</h2>
+            <p>Total Characters: <span id="char-count">0</span></p>
+            <p>Numbers: <span id="number-count">0</span></p>
+            <p>Line (Paragraph) Count: <span id="line-count">0</span></p>
+            <p>Chinese Characters: <span id="chinese-count">0</span> | Chinese Punctuation: <span id="chinese-punctuation-count">0</span></p>
+            <p>English Characters: <span id="english-count">0</span> | English Punctuation: <span id="english-punctuation-count">0</span></p>
+            <p>English Word Count: <span id="english-word-count">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
